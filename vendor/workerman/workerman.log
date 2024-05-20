@@ -1,0 +1,1595 @@
+2024-05-16 12:14:04 pid:15633 Workerman[server.php] start in DEBUG mode
+2024-05-16 12:14:10 pid:15633 Workerman[server.php] stopping ...
+2024-05-16 12:14:10 pid:15633 Workerman[server.php] has been stopped
+2024-05-16 12:20:37 pid:16013 Workerman[server.php] start in DEBUG mode
+2024-05-16 12:33:16 pid:16013 Workerman[server.php] stopping ...
+2024-05-16 12:33:16 pid:16013 Workerman[server.php] has been stopped
+2024-05-16 12:33:18 pid:16225 Workerman[server.php] start in DEBUG mode
+2024-05-16 12:35:52 pid:16225 Workerman[server.php] stopping ...
+2024-05-16 12:35:52 pid:16225 Workerman[server.php] has been stopped
+2024-05-16 12:36:08 pid:16306 Workerman[server.php] start in DEBUG mode
+2024-05-16 12:39:53 pid:16306 Workerman[server.php] stopping ...
+2024-05-16 12:39:53 pid:16306 Workerman[server.php] has been stopped
+2024-05-16 12:40:00 pid:16423 Workerman[server.php] start in DEBUG mode
+2024-05-16 12:41:26 pid:16423 Workerman[server.php] stopping ...
+2024-05-16 12:41:26 pid:16423 Workerman[server.php] has been stopped
+2024-05-16 12:41:28 pid:16435 Workerman[server.php] start in DEBUG mode
+2024-05-16 14:13:26 pid:16435 Workerman[server.php] stopping ...
+2024-05-16 14:13:26 pid:16435 Workerman[server.php] has been stopped
+2024-05-16 14:20:31 pid:18388 Workerman[server.php] start in DEBUG mode
+2024-05-16 14:30:25 pid:18388 Workerman[server.php] stopping ...
+2024-05-16 14:30:25 pid:18388 Workerman[server.php] has been stopped
+2024-05-16 14:30:26 pid:18783 Workerman[server.php] start in DEBUG mode
+2024-05-16 14:36:35 pid:18783 Workerman[server.php] stopping ...
+2024-05-16 14:36:35 pid:18783 Workerman[server.php] has been stopped
+2024-05-16 14:36:36 pid:19060 Workerman[server.php] start in DEBUG mode
+2024-05-16 14:37:05 pid:19070 Workerman[server.php] start in DEBUG mode
+2024-05-16 14:53:32 pid:19070 Workerman[server.php] stopping ...
+2024-05-16 14:53:32 pid:19070 Workerman[server.php] has been stopped
+2024-05-16 15:14:21 pid:20689 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:14:22 pid:20691 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#6 {main}
+2024-05-16 15:14:22 pid:20690 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#6 {main}
+2024-05-16 15:14:22 pid:20692 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#6 {main}
+2024-05-16 15:14:22 pid:20693 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#6 {main}
+2024-05-16 15:14:22 pid:20689 worker[none:20690] exit with status 64000
+2024-05-16 15:14:22 pid:20689 worker[none:20691] exit with status 64000
+2024-05-16 15:14:22 pid:20689 worker[none:20693] exit with status 64000
+2024-05-16 15:14:22 pid:20689 worker[none:20692] exit with status 64000
+2024-05-16 15:14:23 pid:20694 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:23 pid:20695 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:23 pid:20689 worker[none:20694] exit with status 64000
+2024-05-16 15:14:23 pid:20696 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:23 pid:20689 worker[none:20695] exit with status 64000
+2024-05-16 15:14:23 pid:20697 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:23 pid:20689 worker[none:20697] exit with status 64000
+2024-05-16 15:14:23 pid:20689 worker[none:20696] exit with status 64000
+2024-05-16 15:14:24 pid:20698 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:24 pid:20699 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:24 pid:20689 worker[none:20698] exit with status 64000
+2024-05-16 15:14:24 pid:20689 worker[none:20699] exit with status 64000
+2024-05-16 15:14:24 pid:20700 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:24 pid:20701 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:24 pid:20689 worker[none:20700] exit with status 64000
+2024-05-16 15:14:24 pid:20689 worker[none:20701] exit with status 64000
+2024-05-16 15:14:25 pid:20702 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:25 pid:20703 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:25 pid:20689 worker[none:20702] exit with status 64000
+2024-05-16 15:14:25 pid:20689 worker[none:20703] exit with status 64000
+2024-05-16 15:14:25 pid:20705 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:25 pid:20704 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:25 pid:20689 worker[none:20704] exit with status 64000
+2024-05-16 15:14:25 pid:20689 worker[none:20705] exit with status 64000
+2024-05-16 15:14:26 pid:20706 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:26 pid:20707 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:26 pid:20689 worker[none:20706] exit with status 64000
+2024-05-16 15:14:26 pid:20689 worker[none:20707] exit with status 64000
+2024-05-16 15:14:26 pid:20709 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:26 pid:20708 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:26 pid:20689 worker[none:20709] exit with status 64000
+2024-05-16 15:14:26 pid:20689 worker[none:20708] exit with status 64000
+2024-05-16 15:14:27 pid:20710 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:27 pid:20711 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:27 pid:20689 worker[none:20710] exit with status 64000
+2024-05-16 15:14:27 pid:20689 worker[none:20711] exit with status 64000
+2024-05-16 15:14:27 pid:20712 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:27 pid:20713 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:27 pid:20689 worker[none:20712] exit with status 64000
+2024-05-16 15:14:27 pid:20689 worker[none:20713] exit with status 64000
+2024-05-16 15:14:28 pid:20714 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:28 pid:20689 worker[none:20714] exit with status 64000
+2024-05-16 15:14:28 pid:20715 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:28 pid:20717 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:28 pid:20716 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:28 pid:20689 worker[none:20717] exit with status 64000
+2024-05-16 15:14:28 pid:20689 worker[none:20716] exit with status 64000
+2024-05-16 15:14:28 pid:20689 worker[none:20715] exit with status 64000
+2024-05-16 15:14:29 pid:20718 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:29 pid:20689 worker[none:20718] exit with status 64000
+2024-05-16 15:14:29 pid:20719 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:29 pid:20720 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:29 pid:20689 worker[none:20719] exit with status 64000
+2024-05-16 15:14:29 pid:20689 worker[none:20720] exit with status 64000
+2024-05-16 15:14:29 pid:20721 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:29 pid:20689 worker[none:20721] exit with status 64000
+2024-05-16 15:14:30 pid:20722 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:30 pid:20689 worker[none:20722] exit with status 64000
+2024-05-16 15:14:30 pid:20724 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:30 pid:20723 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:30 pid:20689 worker[none:20724] exit with status 64000
+2024-05-16 15:14:30 pid:20725 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:30 pid:20689 worker[none:20723] exit with status 64000
+2024-05-16 15:14:30 pid:20689 worker[none:20725] exit with status 64000
+2024-05-16 15:14:31 pid:20726 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:31 pid:20689 worker[none:20726] exit with status 64000
+2024-05-16 15:14:31 pid:20729 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:31 pid:20727 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:31 pid:20689 worker[none:20727] exit with status 64000
+2024-05-16 15:14:31 pid:20728 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:31 pid:20689 worker[none:20729] exit with status 64000
+2024-05-16 15:14:31 pid:20689 worker[none:20728] exit with status 64000
+2024-05-16 15:14:32 pid:20731 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:32 pid:20689 worker[none:20731] exit with status 64000
+2024-05-16 15:14:32 pid:20732 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:32 pid:20733 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:32 pid:20734 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:32 pid:20689 worker[none:20734] exit with status 64000
+2024-05-16 15:14:32 pid:20689 worker[none:20733] exit with status 64000
+2024-05-16 15:14:32 pid:20689 worker[none:20732] exit with status 64000
+2024-05-16 15:14:33 pid:20735 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:33 pid:20689 worker[none:20735] exit with status 64000
+2024-05-16 15:14:33 pid:20736 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:33 pid:20737 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:33 pid:20738 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:33 pid:20689 worker[none:20737] exit with status 64000
+2024-05-16 15:14:33 pid:20689 worker[none:20738] exit with status 64000
+2024-05-16 15:14:33 pid:20689 worker[none:20736] exit with status 64000
+2024-05-16 15:14:34 pid:20740 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:34 pid:20689 worker[none:20740] exit with status 64000
+2024-05-16 15:14:34 pid:20741 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:34 pid:20742 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:34 pid:20743 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:34 pid:20689 worker[none:20741] exit with status 64000
+2024-05-16 15:14:34 pid:20689 worker[none:20743] exit with status 64000
+2024-05-16 15:14:34 pid:20689 worker[none:20742] exit with status 64000
+2024-05-16 15:14:35 pid:20744 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:35 pid:20689 worker[none:20744] exit with status 64000
+2024-05-16 15:14:35 pid:20745 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:35 pid:20746 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:35 pid:20747 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:35 pid:20689 worker[none:20746] exit with status 64000
+2024-05-16 15:14:35 pid:20689 worker[none:20747] exit with status 64000
+2024-05-16 15:14:35 pid:20689 worker[none:20745] exit with status 64000
+2024-05-16 15:14:36 pid:20748 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:36 pid:20689 worker[none:20748] exit with status 64000
+2024-05-16 15:14:36 pid:20749 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:36 pid:20751 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:36 pid:20689 worker[none:20749] exit with status 64000
+2024-05-16 15:14:36 pid:20750 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:36 pid:20689 worker[none:20751] exit with status 64000
+2024-05-16 15:14:36 pid:20689 worker[none:20750] exit with status 64000
+2024-05-16 15:14:37 pid:20753 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:37 pid:20689 worker[none:20753] exit with status 64000
+2024-05-16 15:14:37 pid:20754 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:37 pid:20755 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:37 pid:20689 worker[none:20755] exit with status 64000
+2024-05-16 15:14:37 pid:20756 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:37 pid:20689 worker[none:20754] exit with status 64000
+2024-05-16 15:14:37 pid:20689 worker[none:20756] exit with status 64000
+2024-05-16 15:14:38 pid:20757 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:38 pid:20689 worker[none:20757] exit with status 64000
+2024-05-16 15:14:38 pid:20758 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:38 pid:20760 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:38 pid:20759 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:38 pid:20689 worker[none:20758] exit with status 64000
+2024-05-16 15:14:38 pid:20689 worker[none:20760] exit with status 64000
+2024-05-16 15:14:38 pid:20689 worker[none:20759] exit with status 64000
+2024-05-16 15:14:39 pid:20761 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:39 pid:20689 worker[none:20761] exit with status 64000
+2024-05-16 15:14:39 pid:20762 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:39 pid:20764 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:39 pid:20689 worker[none:20762] exit with status 64000
+2024-05-16 15:14:39 pid:20763 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:39 pid:20689 worker[none:20764] exit with status 64000
+2024-05-16 15:14:39 pid:20689 worker[none:20763] exit with status 64000
+2024-05-16 15:14:40 pid:20765 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:40 pid:20689 worker[none:20765] exit with status 64000
+2024-05-16 15:14:40 pid:20766 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:40 pid:20767 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:40 pid:20689 worker[none:20767] exit with status 64000
+2024-05-16 15:14:40 pid:20689 worker[none:20766] exit with status 64000
+2024-05-16 15:14:40 pid:20768 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:40 pid:20689 worker[none:20768] exit with status 64000
+2024-05-16 15:14:41 pid:20769 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:41 pid:20689 worker[none:20769] exit with status 64000
+2024-05-16 15:14:41 pid:20771 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:41 pid:20689 worker[none:20771] exit with status 64000
+2024-05-16 15:14:41 pid:20772 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:41 pid:20689 worker[none:20772] exit with status 64000
+2024-05-16 15:14:41 pid:20770 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:41 pid:20689 worker[none:20770] exit with status 64000
+2024-05-16 15:14:42 pid:20773 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:42 pid:20689 worker[none:20773] exit with status 64000
+2024-05-16 15:14:42 pid:20774 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:42 pid:20689 worker[none:20774] exit with status 64000
+2024-05-16 15:14:42 pid:20775 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:42 pid:20689 worker[none:20775] exit with status 64000
+2024-05-16 15:14:42 pid:20776 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:42 pid:20689 worker[none:20776] exit with status 64000
+2024-05-16 15:14:43 pid:20777 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:43 pid:20689 worker[none:20777] exit with status 64000
+2024-05-16 15:14:43 pid:20778 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:43 pid:20689 worker[none:20778] exit with status 64000
+2024-05-16 15:14:43 pid:20779 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:43 pid:20689 worker[none:20779] exit with status 64000
+2024-05-16 15:14:43 pid:20780 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:43 pid:20689 worker[none:20780] exit with status 64000
+2024-05-16 15:14:44 pid:20781 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:44 pid:20689 worker[none:20781] exit with status 64000
+2024-05-16 15:14:44 pid:20782 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:44 pid:20689 worker[none:20782] exit with status 64000
+2024-05-16 15:14:44 pid:20783 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:44 pid:20689 worker[none:20783] exit with status 64000
+2024-05-16 15:14:44 pid:20784 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:44 pid:20689 worker[none:20784] exit with status 64000
+2024-05-16 15:14:45 pid:20786 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:45 pid:20689 worker[none:20786] exit with status 64000
+2024-05-16 15:14:45 pid:20787 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:45 pid:20689 worker[none:20787] exit with status 64000
+2024-05-16 15:14:45 pid:20788 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:45 pid:20689 worker[none:20788] exit with status 64000
+2024-05-16 15:14:45 pid:20789 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:45 pid:20689 worker[none:20789] exit with status 64000
+2024-05-16 15:14:46 pid:20791 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:46 pid:20689 worker[none:20791] exit with status 64000
+2024-05-16 15:14:46 pid:20792 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:46 pid:20689 worker[none:20792] exit with status 64000
+2024-05-16 15:14:46 pid:20793 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:46 pid:20794 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:46 pid:20689 worker[none:20794] exit with status 64000
+2024-05-16 15:14:46 pid:20689 worker[none:20793] exit with status 64000
+2024-05-16 15:14:47 pid:20795 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:47 pid:20689 worker[none:20795] exit with status 64000
+2024-05-16 15:14:47 pid:20796 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:47 pid:20689 worker[none:20796] exit with status 64000
+2024-05-16 15:14:47 pid:20797 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:47 pid:20798 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:47 pid:20689 worker[none:20797] exit with status 64000
+2024-05-16 15:14:47 pid:20689 worker[none:20798] exit with status 64000
+2024-05-16 15:14:48 pid:20799 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:48 pid:20689 worker[none:20799] exit with status 64000
+2024-05-16 15:14:48 pid:20800 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:48 pid:20689 worker[none:20800] exit with status 64000
+2024-05-16 15:14:48 pid:20801 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:48 pid:20802 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:48 pid:20689 worker[none:20801] exit with status 64000
+2024-05-16 15:14:48 pid:20689 worker[none:20802] exit with status 64000
+2024-05-16 15:14:49 pid:20803 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:49 pid:20689 worker[none:20803] exit with status 64000
+2024-05-16 15:14:49 pid:20804 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:49 pid:20689 worker[none:20804] exit with status 64000
+2024-05-16 15:14:49 pid:20805 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:49 pid:20689 worker[none:20805] exit with status 64000
+2024-05-16 15:14:49 pid:20806 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:49 pid:20689 worker[none:20806] exit with status 64000
+2024-05-16 15:14:50 pid:20807 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:50 pid:20689 worker[none:20807] exit with status 64000
+2024-05-16 15:14:50 pid:20808 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:50 pid:20689 worker[none:20808] exit with status 64000
+2024-05-16 15:14:50 pid:20809 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:50 pid:20810 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:50 pid:20689 worker[none:20810] exit with status 64000
+2024-05-16 15:14:50 pid:20689 worker[none:20809] exit with status 64000
+2024-05-16 15:14:51 pid:20811 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:51 pid:20689 worker[none:20811] exit with status 64000
+2024-05-16 15:14:51 pid:20812 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:51 pid:20689 worker[none:20812] exit with status 64000
+2024-05-16 15:14:51 pid:20813 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:51 pid:20814 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:51 pid:20689 worker[none:20813] exit with status 64000
+2024-05-16 15:14:51 pid:20689 worker[none:20814] exit with status 64000
+2024-05-16 15:14:52 pid:20815 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:52 pid:20689 worker[none:20815] exit with status 64000
+2024-05-16 15:14:52 pid:20816 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:52 pid:20689 worker[none:20816] exit with status 64000
+2024-05-16 15:14:52 pid:20817 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:52 pid:20818 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:52 pid:20689 worker[none:20817] exit with status 64000
+2024-05-16 15:14:52 pid:20689 worker[none:20818] exit with status 64000
+2024-05-16 15:14:53 pid:20689 Workerman[server.php] stopping ...
+2024-05-16 15:14:53 pid:20820 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:53 pid:20821 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:53 pid:20823 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:53 pid:20822 Error: Object of class Workerman\Worker could not be converted to string in /var/www/html/Chat/server.php:44
+Stack trace:
+#0 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(2497): {closure}()
+#1 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1636): Workerman\Worker->run()
+#2 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux()
+#3 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#4 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#5 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#6 /var/www/html/Chat/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#7 /var/www/html/Chat/server.php(57): Workerman\Worker::runAll()
+#8 {main}
+2024-05-16 15:14:53 pid:20689 worker[none:20823] exit with status 64000
+2024-05-16 15:14:53 pid:20689 worker[none:20821] exit with status 64000
+2024-05-16 15:14:53 pid:20689 worker[none:20822] exit with status 64000
+2024-05-16 15:14:53 pid:20689 worker[none:20820] exit with status 64000
+2024-05-16 15:14:53 pid:20689 Workerman[server.php] has been stopped
+2024-05-16 15:14:55 pid:20824 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:18:17 pid:20824 Workerman[server.php] stopping ...
+2024-05-16 15:18:17 pid:20824 Workerman[server.php] has been stopped
+2024-05-16 15:18:19 pid:20910 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:18:29 pid:20910 Workerman[server.php] stopping ...
+2024-05-16 15:18:29 pid:20910 Workerman[server.php] has been stopped
+2024-05-16 15:23:12 pid:20967 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:24:54 pid:20967 Workerman[server.php] stopping ...
+2024-05-16 15:24:54 pid:20967 Workerman[server.php] has been stopped
+2024-05-16 15:25:01 pid:21005 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:32:05 pid:21005 Workerman[server.php] stopping ...
+2024-05-16 15:32:05 pid:21005 Workerman[server.php] has been stopped
+2024-05-16 15:37:15 pid:21455 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:39:41 pid:21455 Workerman[server.php] stopping ...
+2024-05-16 15:39:41 pid:21455 Workerman[server.php] has been stopped
+2024-05-16 15:39:42 pid:21549 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:40:39 pid:21549 Workerman[server.php] stopping ...
+2024-05-16 15:40:39 pid:21549 Workerman[server.php] has been stopped
+2024-05-16 15:40:47 pid:21571 Workerman[server.php] start in DEBUG mode
+2024-05-16 15:45:00 pid:21571 Workerman[server.php] stopping ...
+2024-05-16 15:45:00 pid:21571 Workerman[server.php] has been stopped
+2024-05-16 15:58:24 pid:22344 Workerman[server.php] start in DEBUG mode
+2024-05-16 16:05:18 pid:22344 Workerman[server.php] stopping ...
+2024-05-16 16:05:18 pid:22344 Workerman[server.php] has been stopped
+2024-05-16 16:05:20 pid:22397 Workerman[server.php] start in DEBUG mode
+2024-05-16 17:19:44 pid:22397 Workerman[server.php] stopping ...
+2024-05-16 17:19:44 pid:22397 Workerman[server.php] has been stopped
+2024-05-16 17:19:46 pid:23854 Workerman[server.php] start in DEBUG mode
+2024-05-16 17:29:53 pid:23854 Workerman[server.php] stopping ...
+2024-05-16 17:29:53 pid:23854 Workerman[server.php] has been stopped
+2024-05-17 17:05:33 pid:11536 Workerman[server.php] start in DEBUG mode
+2024-05-17 17:07:34 pid:11536 Workerman[server.php] stopping ...
+2024-05-17 17:07:34 pid:11536 Workerman[server.php] has been stopped
+2024-05-20 09:20:25 pid:4568 Workerman[server.php] start in DEBUG mode
+2024-05-20 09:30:41 pid:4568 Workerman[server.php] stopping ...
+2024-05-20 09:30:41 pid:4568 Workerman[server.php] has been stopped
