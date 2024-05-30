@@ -1,17 +1,3 @@
-// const name = document.getElementById('name');
-// const color = document.getElementById('color');
-// const password = document.getElementById('password');
-// const password2 = document.getElementById('password2');
-//
-// let data = {
-//     'name':name,
-//     'color':color,
-//     'password':password,
-//     'password2':password2
-// }
-//
-// let jsonData = JSON.stringify(data);
-
 $(document).ready(function(){
 
     $("#button").click(function () {
@@ -29,7 +15,7 @@ $(document).ready(function(){
 
         let dataJSON = JSON.stringify(data);
 
-        //alert(dataJSON);
+        
 
         $.ajax({
             url: '../Chat/registration.php',
@@ -37,10 +23,10 @@ $(document).ready(function(){
             dataType: 'json',
             data:{data : dataJSON},
             success: function (data) {
-                if (data['msg'] !== '') {
-                    alert(data['msg']);
-                } else {
+                if (data['result'] == 1) {
                     window.location.href = 'auth.html';
+                } else {
+                    alert(data['result']);
                 }
 
             }

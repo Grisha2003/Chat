@@ -22,11 +22,11 @@ class DataBase
         return $result;
     }
 
-    public function set(string $taleName, array $data): bool
+    public function set(string $tableName, array $data): bool
     {
         $ret = true;
-        $query = "INSERT INTO {$tableName} (name, password, color) VALUES ($1, $2, $3)";
-        $result = pg_query_params($this->connection, $query, $data); 
+        $query = "INSERT INTO {$tableName} (name, password, color, token) VALUES ($1, $2, $3, $4)";
+        $result = pg_query_params($this->connect, $query, $data); 
         if ($result == false) {
             $ret = false;
         }
@@ -39,12 +39,13 @@ class DataBase
     public function get(string $tableName, array $id)
     {
         $query = "SELECT * FROM {$tableName} WHERE id = $1";
-        $result = pg_query_params($this->connection, $query, $id);
+        $result = pg_fetch_all(pg_query_params($this->connect, $query, $id));
         return $result;
     }
 
-    public function delete(int $id) 
+    public function delete(string $dbName, array $id) 
     {
-
+        $query = "DELETE FROM {$dbName} WHERE id = $1";
+        $result = pg_query_params($this->connect, $query, $id);
     }
 }

@@ -1,27 +1,31 @@
 <?php
 require 'libs/Validator.php';
+require 'libs/DataBase.php';
 header('Content-Type: application/json');
 
 
 $data = json_decode($_POST['data'],true);
 $name = $data['name'];
 $color = $data['color'];
-$password = $data['password'];
+$password1 = $data['password'];
 $password2 = $data['password2'];
 
 $valid = new \Dependency\Validator();
-$msg = '';
+$msg = $valid->valid($name, $password1, $password2);
 
-if (!$valid->validName($name)) {
-    $msg = "Вы ввели некоректное имя\n";
+$result = 1;
+if ($msg !== '') {
+    $result = $msg;
 }
 
-if (!$valid->validPassword($password)){
-    $msg.= "Вы ввели некоректный пароль\n";
-}
+$host = 'localhost';
+$dbName = 'bot_user';
+$user = 'postgres';
+$passwordDb = 'root';
+$tableName = 'users';
+$token = md5(serialize(random_bytes(16)));
 
-if(!$valid->comparisonPassword($password, $password2) == 0) {
-    $msg.= "Пароли не совпадают";
-}
+$db = new \Dependency\DataBase('localhost', 'bot_user', 'postgres', 'root');
+$db->set($tableName, array($name, $password1, $color, $token));
 
-echo json_encode(['msg' => $msg]);
+echo json_encode(['token'=>$token, 'result'=>$result]);
