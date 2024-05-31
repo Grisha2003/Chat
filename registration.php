@@ -13,6 +13,8 @@ $password2 = $data['password2'];
 $valid = new \Dependency\Validator();
 $msg = $valid->valid($name, $password1, $password2);
 
+$password1 = $valid->cryptPassword($password1);
+
 $result = 1;
 if ($msg !== '') {
     $result = $msg;
@@ -28,4 +30,4 @@ $token = md5(serialize(random_bytes(16)));
 $db = new \Dependency\DataBase('localhost', 'bot_user', 'postgres', 'root');
 $db->set($tableName, array($name, $password1, $color, $token));
 
-echo json_encode(['token'=>$token, 'result'=>$result]);
+echo json_encode(array('token'=>$token, 'result'=>$result));
